@@ -1,0 +1,128 @@
+html
+  body
+    head
+      meta(charset='UTF-8')
+      |
+      meta(name='viewport', content='width=device-width, initial-scale=1.0')
+      |
+      title Neaea - Home
+      |
+      meta(http-equiv='X-UA-Compatible', content='ie=edge')
+      |
+      link(rel='stylesheet', href='style_integrate.css')
+      |
+      script(language='JavaScript', type='text/javascript', src='jquery-3.1.1.js')
+      |
+      script(src='script.js')
+    header.header
+      div(style='float:left')
+        h2 National Educational Assessement and Examiantions Agency
+        |
+        h2(style='margin-left: 300px;') 2017
+      |
+      a#login(href='/users') Login
+    center.searchbox
+      div(style='width: 375px;float:none')
+        input#searched(type='text', name='search', value='', placeholder='Search')
+        |
+        img.searchButton(src='search.png', style='float:right')
+    center.suggestion
+      li Biruk Misganaw Aride
+    .profile
+      center
+        img#photo(src='me.jpg', style='border-radius: 100px;', width='180px')
+        |
+        .detail_prof
+          hr
+          |
+          h4
+            | Gender:
+            span#gender  M
+          |
+          hr
+          |
+          h4
+            | ID:
+            span#uniqueID  500687
+          |
+          hr
+          |
+          h4
+            | Name: 
+            span#firstName Biruk 
+            |
+            span#middleName Misganaw 
+            span#lastName Aride 
+          |
+          hr
+          |
+          h5
+            | School:
+            span#schoolName  FA International Academy
+          |
+          hr
+          |
+          h5
+            | Total:
+            span#totalScore  569
+          |
+          hr
+    table.table-fill
+      thead
+        tr
+          th.text-left Subject
+          |
+          th.text-left Result
+      |
+      tbody.table-hover
+        tr
+          td.text-left English
+          |
+          td#subjectEnglish.text-left 80
+        |
+        tr
+          td.text-left Math
+          |
+          td#subjectMath.text-left 79
+        |
+        tr
+          td.text-left Physics
+          |
+          td#subjectPhysics.text-left 70
+        |
+        tr
+          td.text-left Chemistry
+          |
+          td#subjectChemistry.text-left 82
+        |
+        tr
+          td.text-left Biology
+          |
+          td#subjectBiology.text-left 85
+        |
+        tr
+          td.text-left Civics
+          |
+          td#subjectCivics.text-left 90
+        |
+        tr
+          td.text-left Aptitude
+          |
+          td#subjectAptitude.text-left 84
+    .placement
+      table(style='width: 300px;')
+        thead
+          tr
+            th.text-left Placed Institution
+        |
+        tbody.table-hover
+          tr
+            td#univeristy.text-left Addis Ababa University
+        |
+        thead
+          tr
+            th.text-left Placed Field
+        |
+        tbody.table-hover
+          tr
+            td#field.text-left Software Engineering

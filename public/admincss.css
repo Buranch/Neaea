@@ -1,0 +1,262 @@
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  text-align: center;
+color: #cedfe9;
+padding-bottom: 72px;
+margin-bottom: 5px;
+padding-top: 45px;
+/*background-color: darkslategray;  */
+/*background-image: linear-gradient(45deg, #cbabfb 0%, #fb7ef6 60%);*/
+/*background-image: linear-gradient(45deg, #7731d4 0%, #fb7ef6 60%)*/
+    /*background-image: linear-gradient(45deg, #7731d4 0%, #231c84 60%);*/
+/*green theme*/
+    background-image: linear-gradient(45deg, #030e4c 0%, #1c847f 60%);
+/*blue hamerawi*/
+    /*background-image: linear-gradient(45deg, #030e4c 0%, #760fab 60%);*/
+}
+
+.header h1, .header h2 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 1;
+}
+
+.header h1 {
+    position: relative;
+    padding-bottom: 0.5em;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.header h2 {
+    font-weight: normal;
+    font-size: 0.875rem;
+    text-align: start;
+    padding-left: 30px;
+}
+
+@media screen and (min-width: 750px) {
+    .header h1 {
+        font-size: 2.75rem;
+    }
+    .header h2 {
+        font-weight: normal;
+        font-size: 1.125rem;
+        letter-spacing: 0.1em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .header h1 {
+        font-size: 6rem;
+    }
+    .header h2 {
+        font-weight: normal;
+        font-size: 1.5rem;
+    }
+}
+
+h1{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:50vh;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+.subject{
+  width: 76px;
+  height: 34px;
+  border: 0px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: #67d0c9;
+}
+
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 50px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+#login {
+    background-color: #50e0d1;
+    float: right;
+    margin-right: 188px;
+    /* height: 30px; */
+    /* width: 14px; */
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    padding: 11px;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* clear: both; */
+
+}
+#login:hover{
+  background-color: #acc3ec;
+  color:gray;
+}
+
+.searchbox {
+    /*padding-bottom: 25px;*/
+
+}
+.searchButton{
+  width: 45px;
+}
+
+#searched {
+    border: 0px;
+    /*border-radius: 7px;*/
+    height: 25px;
+    width: 301px;
+    padding: 10px;
+        font-size: larger;
+}
+.suggestion{
+  background-color: whitesmoke;
+  height: 100px;
+  width: 321px;
+  position: absolute;
+  margin-left: 469px;
+  top: 167px;
+  display: none;
+}
+.suggestion li{
+    text-decoration: none;
+    background-color: ghostwhite;
+    border-radius: 2px solid gray;
+    list-style: none;
+    height: 43px;
+    /*border-bottom: 0.1px solid gray;*/
+    padding: 6px;
+    text-align: center;
+}
+.suggestion li:hover{
+    background-color: gray;
+}
+
+
+
+/* follow me template */
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial;
+  color: #fff;
+}
+.made-with-love i {
+  font-style: normal;
+  color: #F50057;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+.made-with-love a {
+  color: #fff;
+  text-decoration: none;
+}
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#done{
+  background-color: #50e0d1;
+  /*float: right;*/
+  /*margin-right: 188px;*/
+  /* height: 30px; */
+  /* width: 14px; */
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  padding: 11px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100px;
+  margin-left:  590px;
+  align-items: center;
+  /* clear: both; */
+
+}
+#done:hover{
+  background-color: black;
+}
+#success{
+  background-color: #00ff86;
+  float: left;
+  margin-left: 210px;
+  margin-top: 5px;
+  /* width: 100px; */
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  display: none;
+  border-radius: 4px;
+  color: #710d0d;
+  height: 30px;}

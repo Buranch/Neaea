@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    |
+    title Admin Panel
+    |
+    script(language='JavaScript', type='text/javascript', src='/jquery-3.1.1.js')
+    |
+    script(src='/adminjs.js', charset='utf-8')
+    |
+    link(rel='stylesheet', href='/admincss.css')
+  body
+    header.header
+      div(style='float:left')
+        h2 National Educational Assessement and Examiantions Agency
+        |
+        h2(style='margin-left: 300px;') 2017
+      |
+      a#login(href='/users/logout') Logout
+    center.searchbox
+      #success  174 Students
+      div(style='width: 375px;float:none')
+        input#searched(type='text', name='search', value='', placeholder='Search by school')
+        |
+        img.searchButton(src='/search.png', style='float:right')
+    center.suggestion
+    |
+    section
+      // for demo wrap
+      .tbl-header
+        table(cellpadding='0', cellspacing='0', border='0')
+          thead
+            tr
+              th
+                | ID
+              |
+              th Eng
+              |
+              th Math
+              |
+              th Phy
+              |
+              th Chem
+              |
+              th Bio
+              |
+              th Civics
+              |
+              th Apt
+              |
+              th Total
+      |
+      .tbl-content
+        table(cellpadding='0', cellspacing='0', border='0')
+          tbody#holder
+    |
+    center#done Submit
+    // follow me template

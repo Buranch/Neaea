@@ -1,0 +1,52 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    |
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    |
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    |
+    link(rel='stylesheet', href='loginCss.css')
+    |
+    script(language='JavaScript', type='text/javascript', src='jquery-3.1.1.js')
+    |
+    script(src='script.js')
+    |
+    title Document
+  body
+    
+    .h1#loginheader National Educational Assessement and Examiantions Agency
+    .h1#loginheader_2 Admin Panel
+    .login-page
+      .form
+        form.register-form(enctype='application/x-www-form-urlencoded', method='POST', action='users/register')
+          input(type='text', placeholder='name', name='name')
+          |
+          input(type='text', placeholder='username', name='username')
+          |
+          input(type='password', placeholder='password', name='password')
+
+          |
+          input(type='password', placeholder='confirm-password', name='password2')
+          |
+          input(type='text', placeholder='email address', name='email')
+          |
+          button(type='submit') Register
+          |
+          p.message
+            | Already registered?
+            a(href='#') Sign In
+        |
+        form.login-form(enctype='application/x-www-form-urlencoded', method='POST', action='/users/login')
+          input(type='text', placeholder='username', name='username')
+          |
+          input(type='password', placeholder='password' name='password')
+          |
+          button(type='submit') login
+          |
+          p.message
+            | Not registered?
+            a(href='#') Create an account
+            br
+            a(href='/') Back to Home
