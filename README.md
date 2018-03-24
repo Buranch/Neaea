@@ -8,5 +8,9 @@ Architectural Design
 -It's Client-Server app.
 In addition, the Client Side uses MVC pattern to render the data recieved from server. 
 
+Here is screenshot for student panel which don't require to login
+![App-studnet-screenshot](public/images/neaea.JPG)
 
-![App-screenshot](public/images/neaea.JPG)
+
+Here is the screenshot for admin panel 
+![App-admin-screenshot](public/images/neaea2.JPG)
