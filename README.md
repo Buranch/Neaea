@@ -1,6 +1,6 @@
 A simple Server-Client Archetectural Application
 
-It's a clone of the Popular NEAEA exam result website.  where students input their ID and see thier exam result. 
+It's a clone of the Popular NEAEA Ethiopia University Entrance Examination result website.  where students input their ID and see thier exam result. 
 
 Also it has admin panel where the official's add and edit student results.
 
