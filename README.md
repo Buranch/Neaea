@@ -9,4 +9,4 @@ Architectural Design
 In addition, the Client Side uses MVC pattern to render the data recieved from server. 
 
 
-![App-screenshot](https://github.com/Buranch/Neaea/edit/master/public/image/neaea.JPG)
+![App-screenshot](https://github.com/Buranch/Neaea/edit/master/public/images/neaea.JPG)
